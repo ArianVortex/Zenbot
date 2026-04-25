@@ -9,9 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Satoshi:wght@500;700&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  
-  <!-- Favicon con la imagen de Rem -->
-  <link rel="icon" type="image/jpeg" href="https://i.imgur.com/zcL9T.jpg">
+
+  <!-- Favicon local -->
+  <link rel="icon" href="rem.jpg" type="image/jpeg">
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Satoshi:wght@500;700&display=swap');
@@ -19,7 +19,6 @@
     body {
       font-family: 'Inter', system-ui, sans-serif;
     }
-    
     .heading-font {
       font-family: 'Satoshi', sans-serif;
     }
@@ -53,8 +52,7 @@
     }
 
     .rem-glow {
-      box-shadow: 0 0 35px rgba(100, 200, 255, 0.6),
-                  0 0 70px rgba(255, 180, 220, 0.3);
+      box-shadow: 0 0 40px rgba(100, 200, 255, 0.6);
     }
 
     .feature-card {
@@ -86,22 +84,24 @@
   </style>
 </head>
 <body class="bg-[#0A1F38] text-white overflow-x-hidden">
+
   <!-- Navbar -->
   <nav class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <img src="https://i.imgur.com/zcL9T.jpg" alt="Rem" class="w-10 h-10 rounded-2xl object-cover border border-cyan-300/30 logo-rem">
+        <img src="rem.jpg" 
+             onerror="this.src='https://via.placeholder.com/150/1A2A4A/64C8FF?text=Rem'" 
+             alt="Rem" class="w-10 h-10 rounded-2xl object-cover border border-cyan-300/30 logo-rem">
         <span class="heading-font text-3xl font-bold tracking-tighter">Rem Bot</span>
       </div>
-      
+     
       <div class="hidden md:flex items-center gap-10 text-sm font-medium">
         <a href="#inicio" class="hover:text-[#64C8FF] transition-colors">Inicio</a>
         <a href="#caracteristicas" class="hover:text-[#64C8FF] transition-colors">Características</a>
         <a href="#acceso" class="hover:text-[#64C8FF] transition-colors">Acceso</a>
       </div>
-      
-      <a href="https://tupaginadepago.com" 
-         target="_blank"
+     
+      <a href="https://tupaginadepago.com" target="_blank"
          class="px-7 py-3.5 bg-gradient-to-r from-[#64C8FF] to-[#FFB4DC] text-black font-semibold rounded-2xl hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 shadow-lg">
         <i class="fas fa-sparkles"></i>
         <span>Obtener Rem Bot</span>
@@ -118,41 +118,41 @@
           <div class="w-2 h-2 bg-[#64C8FF] rounded-full animate-pulse"></div>
           Bot Premium para WhatsApp
         </div>
-        
+       
         <h1 class="heading-font text-6xl md:text-7xl font-bold tracking-tighter leading-none">
           Rem <span class="gradient-text">Bot</span>
         </h1>
-        
+       
         <p class="text-3xl text-gray-200 font-light">
           Tu asistente leal y adorable en WhatsApp
         </p>
-        
+       
         <p class="text-lg text-gray-300 max-w-lg">
           Crea stickers sin bordes blancos con <span class="font-mono text-[#64C8FF]">!s</span>, descarga videos de TikTok sin marca de agua con <span class="font-mono text-[#64C8FF]">!tt</span>, y más.
         </p>
-        
+       
         <div class="flex flex-wrap gap-5 pt-4">
-          <a href="https://tupaginadepago.com" 
-             target="_blank"
+          <a href="https://tupaginadepago.com" target="_blank"
              class="px-10 py-6 bg-gradient-to-r from-[#64C8FF] to-[#FFB4DC] text-black text-xl font-semibold rounded-3xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center gap-3 rem-glow">
             <i class="fas fa-heart"></i>
             Obtener Rem Bot
           </a>
-          
-          <a href="#caracteristicas" 
+         
+          <a href="#caracteristicas"
              class="px-8 py-6 border-2 border-white/30 hover:border-[#64C8FF] rounded-3xl text-lg font-medium transition-all duration-300">
             Ver funciones
           </a>
         </div>
       </div>
-      
+     
       <!-- Rem Visual -->
       <div class="flex justify-center items-center" data-aos="fade-left" data-aos-duration="1100">
         <div class="relative">
           <div class="absolute -inset-24 bg-gradient-to-br from-[#64C8FF] via-[#FFB4DC] to-transparent opacity-20 blur-[90px] rounded-full"></div>
-          
-          <img src="https://i.imgur.com/zcL9T.jpg" 
-               alt="Rem Bot" 
+         
+          <img src="rem.jpg"
+               onerror="this.src='https://via.placeholder.com/600x700/0A1F38/64C8FF?text=Rem+Bot';"
+               alt="Rem Bot"
                class="rem-icon w-80 md:w-96 h-auto rounded-3xl shadow-2xl border border-white/20 object-cover">
         </div>
       </div>
@@ -171,7 +171,7 @@
         <h2 class="heading-font text-5xl font-bold">Funciones de Rem Bot</h2>
         <p class="text-gray-400 mt-4 text-lg">Comandos simples y eficientes para ti</p>
       </div>
-      
+     
       <div class="grid md:grid-cols-3 gap-8">
         <div class="feature-card glass rounded-3xl p-10 border border-white/10" data-aos="fade-up" data-aos-delay="100">
           <div class="text-6xl mb-6">🖼️</div>
@@ -179,14 +179,12 @@
           <p class="text-gray-300">Crea stickers sin bordes blancos a partir de imágenes y GIFs. Resultado limpio y profesional.</p>
           <div class="mt-10 text-[#64C8FF] font-mono text-lg">!s</div>
         </div>
-
         <div class="feature-card glass rounded-3xl p-10 border border-white/10" data-aos="fade-up" data-aos-delay="200">
           <div class="text-6xl mb-6">📹</div>
           <h3 class="text-2xl font-semibold mb-4">!tt - TikTok Sin Watermark</h3>
           <p class="text-gray-300">Descarga videos de TikTok sin marca de agua de forma rápida y en alta calidad.</p>
           <div class="mt-10 text-[#64C8FF] font-mono text-lg">!tt</div>
         </div>
-
         <div class="feature-card glass rounded-3xl p-10 border border-white/10" data-aos="fade-up" data-aos-delay="300">
           <div class="text-6xl mb-6">📜</div>
           <h3 class="text-2xl font-semibold mb-4">!menu - Lista Completa</h3>
@@ -204,16 +202,15 @@
         <div class="mx-auto w-24 h-24 bg-gradient-to-br from-pink-300 to-cyan-300 rounded-3xl flex items-center justify-center text-6xl mb-8 shadow-inner">
           💖
         </div>
-        
+       
         <h2 class="heading-font text-5xl font-bold mb-6">Rem Bot Premium</h2>
         <p class="text-2xl text-gray-200 mb-12">Accede a tu asistente leal</p>
-        
-        <a href="https://tupaginadepago.com" 
-           target="_blank"
+       
+        <a href="https://tupaginadepago.com" target="_blank"
            class="inline-block px-16 py-7 bg-gradient-to-r from-[#64C8FF] to-[#FFB4DC] text-black font-bold text-2xl rounded-3xl hover:scale-110 transition-all duration-300 rem-glow">
           Obtener Rem Bot Ahora
         </a>
-        
+       
         <div class="mt-16 text-sm text-gray-400 max-w-md mx-auto leading-relaxed">
           Una vez realizado el pago recibirás el enlace de invitación al grupo privado.<br>
           <span class="text-rose-300">El enlace es de un solo uso y solo puede abrirse desde tu dispositivo.</span><br>
@@ -227,13 +224,15 @@
   <footer class="bg-black/50 py-16 border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 text-center">
       <div class="flex items-center justify-center gap-3 mb-6">
-        <img src="https://i.imgur.com/zcL9T.jpg" alt="Rem" class="w-12 h-12 rounded-2xl object-cover">
+        <img src="rem.jpg" 
+             onerror="this.src='https://via.placeholder.com/150/1A2A4A/64C8FF?text=Rem'" 
+             alt="Rem" class="w-12 h-12 rounded-2xl object-cover">
         <span class="heading-font text-3xl font-bold">Rem Bot</span>
       </div>
-      
+     
       <p class="text-gray-400">Creado con cariño por <span class="text-white">Zen</span></p>
       <p class="text-gray-400">Sub Owner: <span class="text-white">Sow</span></p>
-      
+     
       <p class="mt-10 text-xs text-gray-500">© 2026 Rem Bot. Todos los derechos reservados.</p>
     </div>
   </footer>
